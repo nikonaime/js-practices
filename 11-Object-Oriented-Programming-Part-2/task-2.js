@@ -12,9 +12,10 @@ CoffeeMachine.prototype.setWaterAmount = function(amount) {
   this.waterAmount = amount;
 };
 
+CoffeeMachine.prototype.WATER_HEAT_CAPACITY = 4200;
+
 function CoffeeMachine(power) {
   this.waterAmount = 0;
-  this.WATER_HEAT_CAPACITY = 4200;
   this.power = power;
 }
 
